@@ -1,0 +1,113 @@
+
+        body{
+
+        }
+        nav{
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin: 0 20px ;
+        }
+        nav ul a{
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        body{
+            font-family: sans-serif;}
+
+    body {
+
+      background-color: white;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+ nav{
+
+
+ background-color:aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+    }
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+nav ul li{
+  margin: 0 20px;
+
+
+}
+nav ul a{
+text-decoration: none;
+ font-size: 15px;
+ font-weight: bold;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+div{
+    /*background-color: white;*/
+    /*height: 100px;*/
+}
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+.background-image{
+ background-image: url("https://cdn.pixabay.com/photo/2016/05/01/21/29/universitatsklinikum-ulm-1366019_640.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.image-one{
+    height: 50vh;
+width: 300px;
+margin: 10px;
+
+}
+.image-two{
+  height: 50vh;
+    width: 300px;
+    margin: 10px;
+}
+.image-three {
+    height: 50vh;
+    width: 300px;
+    margin: 20px;
+}
+.image-four{
+    height: 50vh;
+    width: 300px;
+    margin: 10px;
+}
